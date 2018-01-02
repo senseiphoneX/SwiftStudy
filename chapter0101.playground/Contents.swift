@@ -25,3 +25,27 @@ var f: Float = Float(r)
 let w: Double = 0.5
 let i2: Int = 10
 let b = w * Double(i2)
+
+var a2: Double = Double(i)
+var j: Int = Int(a * 1.25)
+
+//let i3 = Int8(100 * 9) // エラー
+//var u = UInt(-1) // エラー
+
+let b2: Int8 = 40, c: Int8 = 80
+// let d = b2 * c // エラー
+
+let u = UInt(10)
+// var v = u - 11 // エラー
+
+let f2 = Float(-3.125)
+let i3 = Int(f2) // -3
+
+var t: Double = 8
+let s = t * 10
+
+let m: UInt = 1000 // 符号なし整数
+let n: Int8 = 64   // 符号あり8ビット整数
+print(m == n)      // false
+print(m > n)       // true
+
